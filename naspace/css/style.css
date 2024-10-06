@@ -23,6 +23,48 @@
     color: black;            /* Change text color on hover */
     /* border: 1px ; */
 }
+.getst{
+  background: linear-gradient(to right, #C65BB5, #8C81D2);
+  border-radius: 25px;
+  font-size: 50px;
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  padding-left: 35%;
+  padding-right: 35%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  border: none;
+}
+.getst:hover {
+  cursor: pointer;
+}
+.icon {
+  overflow: hidden; /* Ensures the enlarged image doesn't overflow */
+}
+
+.tak-3{
+  transition: transform 1s ease; /* Smooth transition effect */
+  width: 300px; /* Adjust the size as needed */
+}
+.tak-4{
+  transition: transform 1s ease; /* Smooth transition effect */
+  width: 300px; /* Adjust the size as needed */
+}
+.tak-5{
+  transition: transform 1s ease; /* Smooth transition effect */
+  width: 300px; /* Adjust the size as needed */
+}
+
+.icon:hover .tak-3 {
+  transform: scale(1.2); /* Scale the image on hover */
+}
+.icon:hover .tak-4 {
+  transform: scale(1.2); /* Scale the image on hover */
+}
+.icon:hover .tak-5 {
+  transform: scale(1.2); /* Scale the image on hover */
+}
   .web .frame-all-wrapper {
     background-color: rgba(255, 255, 255, 1);
     background: linear-gradient(180deg, rgb(48.43, 55.64, 81.17) 0%, rgb(67.58, 40.09, 66.48) 100%);
@@ -230,6 +272,8 @@
   }
   
   .web .overlap-group-wrapper {
+    display: flex;
+    justify-content: center;
     position: absolute;
     width: 1078px;
     height: 99px;
