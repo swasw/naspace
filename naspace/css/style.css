@@ -5,7 +5,24 @@
     justify-content: center;
     width: 100%;
   }
-  
+  .rounded-button {
+    background-color: transparent; /* Button background color */
+    color: white;            /* Button text color */    
+    border: 1px solid white; /* Solid border */
+    font-family: Arial;
+    font-size: 70px;
+    font-weight: 700;
+    border-radius: 40px;    /* Rounded corners */
+    padding: 10px 15px;     /* Padding inside the button */
+    cursor: pointer;         /* Change cursor on hover */
+    transition: background-color 1s, color 1s; /* Transition effects */
+}
+
+.rounded-button:hover {
+    background-color: white; /* Change background on hover */
+    color: black;            /* Change text color on hover */
+    /* border: 1px ; */
+}
   .web .frame-all-wrapper {
     background-color: rgba(255, 255, 255, 1);
     background: linear-gradient(180deg, rgb(48.43, 55.64, 81.17) 0%, rgb(67.58, 40.09, 66.48) 100%);
@@ -23,9 +40,10 @@
   
   .web .header {
     display: flex;
-    height: 150px;
+    height: 160px;
     align-items: flex-start;
     gap: 10px;
+    justify-content: space-between;
     padding: 32px 63px;
     position: relative;
     align-self: stretch;
@@ -112,13 +130,13 @@
     text-align: center;
   }
   
-  .web .div {
+  /* .web .div {
     position: absolute;
     top: 32px;
     left: 2628px;
     width: 572px;
     height: 88px;
-  }
+  } */
   
   .web .body {
     position: relative;
