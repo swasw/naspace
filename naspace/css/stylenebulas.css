@@ -6,6 +6,26 @@
     width: 100%;
   }
   
+  .rounded-button {
+    background-color: transparent; /* Button background color */
+    position: relative;
+    color: white;            /* Button text color */    
+    border: 1px solid white; /* Solid border */
+    font-family: Arial;
+    font-size: 70px;
+    font-weight: 700;
+    border-radius: 40px;    /* Rounded corners */
+    padding: 10px 15px;     /* Padding inside the button */
+    cursor: pointer;         /* Change cursor on hover */
+    transition: background-color 1s, color 1s; /* Transition effects */
+}
+
+.rounded-button:hover {
+    background-color: white; /* Change background on hover */
+    color: black;            /* Change text color on hover */
+    /* border: 1px ; */
+}
+
   .web-nebulas .frame-all-wrapper {
     background-color: rgba(255, 255, 255, 1);
     background: linear-gradient(180deg, rgb(48, 56, 81) 0%, rgb(68, 40, 66) 100%);
@@ -26,6 +46,8 @@
     height: 152px;
     align-items: flex-start;
     gap: 10px;
+    justify-content: space-between;
+    justify-content: spa;
     padding: 32px 63px;
     position: relative;
     align-self: stretch;
@@ -304,8 +326,8 @@
   
   .web-nebulas .tak {
     position: absolute;
-    width: 900px;
-    height: 866px;
-    top: -132px;
-    left: -78px;
+    width: 700px;
+    height: 666px;
+    top: -32px;
+    left: -8px;
   }

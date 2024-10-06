@@ -5,8 +5,10 @@
     justify-content: center;
     width: 100%;
   }
-  .rounded-button {
+  
+.rounded-button {
     background-color: transparent; /* Button background color */
+    position: relative;
     color: white;            /* Button text color */    
     border: 1px solid white; /* Solid border */
     font-family: Arial;
@@ -23,6 +25,7 @@
     color: black;            /* Change text color on hover */
     /* border: 1px ; */
 }
+
   .web .frame-all-wrapper {
     background-color: rgba(255, 255, 255, 1);
     background: linear-gradient(180deg, rgb(48.43, 55.64, 81.17) 0%, rgb(67.58, 40.09, 66.48) 100%);
