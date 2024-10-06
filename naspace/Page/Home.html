@@ -13,10 +13,10 @@
           <header class="header">
             <img class="logo" src="../img/img-logo.png" />
             <div class="buttonss">
-              <button class="rounded-button">Home</button>
-              <button class="rounded-button">About</button>
-              <button class="rounded-button">Category</button>
-          </div>
+              <button class="rounded-button" onclick="scrollToSection('background-awalan')">Home</button>
+              <button class="rounded-button" onclick="scrollToSection('jwst-apaan')">About</button>
+              <button class="rounded-button" onclick="scrollToSection('body-bagan-materi')">Category</button>
+            </div>
 <<<<<<< HEAD
             <!-- <div class="div"></div> -->
 =======
@@ -24,7 +24,7 @@
 >>>>>>> a3b7405fed1545723433ab284f9bd4a0b21e15cf
           </header>
           <div class="body">
-            <div class="first-body">
+            <div class="first-body" id="background-awalan">
               <div class="overlap">
                 <img class="group" src="../img/img-group-20.png" />
                 <img class="tak" src="../img/img-tak-berjudul171-20241005170451-1.png" />
@@ -38,7 +38,7 @@
                       <button class="getst">Get Started</button>
                     </div>
                   </div>
-                  <div class="jwst-apaan">
+                  <div class="jwst-apaan" id="jwst-apaan">
                     <div class="garis"></div>
                     <div class="header-judul-nyet">
                       <div class="judul-tagline">
@@ -72,8 +72,10 @@
                     </div>
                   </div>
                   <div class="materi">
-                    <div class="header-line-txt"><div class="category-2">CATEGORY</div></div>
-                    <div class="body-bagan-materi">
+                    <div class="header-line-txt">
+                      <div class="category-2">CATEGORY</div>
+                    </div>
+                    <div class="body-bagan-materi" id="body-bagan-materi">
                       <div class="card">
                         <div class="overlap-2">
                           <div class="card-2">
@@ -84,7 +86,9 @@
                                   where new stars are born.
                                 </p>
                               </div>
-                              <div class="judul-teks"><div class="galaxies">GALAXIES</div></div>
+                              <div class="judul-teks">
+                                <div class="galaxies">GALAXIES</div>
+                              </div>
                             </div>
                             <div class="div-wrapper">
                               <div class="overlap-group-3"><a href="./Galaxy.html" class="text-wrapper-7">More Stars</a></div>
@@ -103,12 +107,14 @@
                                   where new stars are born.
                                 </p>
                               </div>
-                              <div class="judul-teks"><div class="nebula">NEBULA</div></div>
+                              <div class="judul-teks">
+                                <div class="nebula">NEBULA</div>
+                              </div>
                             </div>
                             <div class="div-wrapper">
                               <div class="overlap-group-3">
                                 <a href="../Page/Nebulas.html" class="text-wrapper-9">More Stars</a>
-                                </div>
+                              </div>
                             </div>
                           </div>
                           <div class="icon"><img class="tak-4" src="../img/img-tak-berjudul167-20241005145929-2.png" /></div>
@@ -124,12 +130,14 @@
                                   together by its own gravity.
                                 </p>
                               </div>
-                              <div class="judul-teks"><div class="stars">STARS</div></div>
+                              <div class="judul-teks">
+                                <div class="stars">STARS</div>
+                              </div>
                             </div>
                             <div class="div-wrapper">
                               <div class="overlap-group-3">
-                                    <a href="./Stars.html" class="text-wrapper-10">More Stars</a>
-                                </div>
+                                <a href="./Stars.html" class="text-wrapper-10">More Stars</a>
+                              </div>
                             </div>
                           </div>
                           <div class="icon"><img class="tak-5" src="../img/img-tak-berjudul168-20241005151604-1.png" /></div>
@@ -154,5 +162,14 @@
         </div>
       </div>
     </div>
+
+    <script>
+        function scrollToSection(id) {
+            const section = document.getElementById(id);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
   </body>
 </html>
