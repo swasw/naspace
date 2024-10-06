@@ -1,0 +1,311 @@
+.web-nebulas {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .web-nebulas .frame-all-wrapper {
+    background-color: rgba(255, 255, 255, 1);
+    background: linear-gradient(180deg, rgb(48, 56, 81) 0%, rgb(68, 40, 66) 100%);
+    width: 3200px;
+    height: 1800px;
+  }
+  
+  .web-nebulas .frame-all {
+    display: flex;
+    flex-direction: column;
+    width: 3200px;
+    align-items: center;
+    position: relative;
+  }
+  
+  .web-nebulas .header {
+    display: flex;
+    height: 152px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 32px 63px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #1e1128;
+  }
+  
+  .web-nebulas .logo {
+    position: relative;
+    width: 572px;
+    height: 88px;
+  }
+  
+  .web-nebulas .navigator {
+    display: flex;
+    width: 1983px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .web-nebulas .component {
+    width: 186px;
+    position: relative;
+    height: 60px;
+    border-radius: 200px;
+    border: 3px solid;
+    border-color: #ffffff;
+  }
+  
+  .web-nebulas .home {
+    height: 30px;
+    top: 11px;
+    left: 44px;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0.31px;
+    line-height: 29.3px;
+    position: absolute;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .web-nebulas .about {
+    position: absolute;
+    height: 30px;
+    top: 11px;
+    left: 34px;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.31px;
+    line-height: 29.3px;
+    white-space: nowrap;
+  }
+  
+  .web-nebulas .category-wrapper {
+    width: 231px;
+    position: relative;
+    height: 60px;
+    border-radius: 200px;
+    border: 3px solid;
+    border-color: #ffffff;
+  }
+  
+  .web-nebulas .category {
+    position: absolute;
+    width: 186px;
+    height: 30px;
+    top: 11px;
+    left: 20px;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.31px;
+    line-height: 29.3px;
+  }
+  
+  .web-nebulas .div {
+    position: absolute;
+    top: 32px;
+    left: 2628px;
+    width: 572px;
+    height: 88px;
+  }
+  
+  .web-nebulas .body {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1648px;
+    overflow: hidden;
+    background-image: url(./img/group-20.png);
+    background-size: 100% 100%;
+  }
+  
+  .web-nebulas .sub-body {
+    display: flex;
+    width: 3200px;
+    height: 1645px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 137px;
+    position: relative;
+    left: 4px;
+    overflow-y: scroll;
+  }
+  
+  .web-nebulas .frame {
+    position: relative;
+    width: 1849px;
+    height: 1517px;
+  }
+  
+  .web-nebulas .ezgif {
+    position: absolute;
+    width: 1711px;
+    height: 977px;
+    top: 444px;
+    left: 69px;
+    object-fit: cover;
+  }
+  
+  .web-nebulas .kartu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .web-nebulas .card {
+    position: relative;
+    width: 957px;
+    height: 1520px;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0px 20px 4px #00000040;
+  }
+  
+  .web-nebulas .overlap {
+    position: relative;
+    width: 821px;
+    height: 1298px;
+    top: 111px;
+    left: 50px;
+  }
+  
+  .web-nebulas .card-2 {
+    position: absolute;
+    width: 821px;
+    height: 1026px;
+    top: 272px;
+    left: 0;
+    background-color: #563566bf;
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0px 20px 4px #00000040;
+  }
+  
+  .web-nebulas .overlap-group {
+    position: absolute;
+    width: 780px;
+    height: 476px;
+    top: 366px;
+    left: 19px;
+  }
+  
+  .web-nebulas .decs-teks {
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+    height: 346px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0px;
+    position: absolute;
+    top: 130px;
+    left: 0;
+  }
+  
+  .web-nebulas .text-wrapper {
+    position: relative;
+    width: 638px;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 35px;
+  }
+  
+  .web-nebulas .judul-teks {
+    display: flex;
+    flex-direction: column;
+    width: 666px;
+    height: 166px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 42px 0px;
+    position: absolute;
+    top: 0;
+    left: 56px;
+  }
+  
+  .web-nebulas .nebulas {
+    position: relative;
+    width: 612px;
+    height: 103px;
+    margin-top: -19.5px;
+    margin-bottom: -1.5px;
+    -webkit-text-stroke: 8px #ffffff;
+    font-family: "Star Cartoon-Regular", Helvetica;
+    font-weight: 400;
+    color: #619b64;
+    font-size: 128px;
+    text-align: center;
+    letter-spacing: 0.17px;
+    line-height: 16.7px;
+  }
+  
+  .web-nebulas .group {
+    position: absolute;
+    width: 695px;
+    height: 110px;
+    top: 842px;
+    left: 72px;
+  }
+  
+  .web-nebulas .div-wrapper {
+    position: relative;
+    width: 693px;
+    height: 110px;
+    background-color: #d9d9d9;
+    border-radius: 35px;
+  }
+  
+  .web-nebulas .text-wrapper-2 {
+    width: 334px;
+    height: 35px;
+    top: 37px;
+    left: 180px;
+    color: #8f416b;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 35px;
+    position: absolute;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .web-nebulas .icon {
+    position: absolute;
+    width: 679px;
+    height: 679px;
+    top: 0;
+    left: 99px;
+    overflow: hidden;
+  }
+  
+  .web-nebulas .tak {
+    position: absolute;
+    width: 900px;
+    height: 866px;
+    top: -132px;
+    left: -78px;
+  }

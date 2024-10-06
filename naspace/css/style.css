@@ -1,0 +1,831 @@
+.web {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .web .frame-all-wrapper {
+    background-color: rgba(255, 255, 255, 1);
+    background: linear-gradient(180deg, rgb(48.43, 55.64, 81.17) 0%, rgb(67.58, 40.09, 66.48) 100%);
+    width: 3200px;
+    height: 1800px;
+  }
+  
+  .web .frame-all {
+    display: flex;
+    width: 3200px;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .web .header {
+    display: flex;
+    height: 150px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 32px 63px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #1e1128;
+  }
+  
+  .web .logo {
+    position: relative;
+    width: 572px;
+    height: 88px;
+  }
+  
+  .web .navigator {
+    display: flex;
+    width: 1983px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .web .component {
+    width: 186px;
+    position: relative;
+    height: 60px;
+    border-radius: 200px;
+    border: 3px solid;
+    border-color: #ffffff;
+  }
+  
+  .web .home {
+    position: absolute;
+    height: 30px;
+    top: 11px;
+    left: 44px;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.31px;
+    line-height: 29.3px;
+    white-space: nowrap;
+  }
+  
+  .web .about {
+    position: absolute;
+    height: 30px;
+    top: 11px;
+    left: 34px;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.31px;
+    line-height: 29.3px;
+    white-space: nowrap;
+  }
+  
+  .web .category-wrapper {
+    width: 231px;
+    position: relative;
+    height: 60px;
+    border-radius: 200px;
+    border: 3px solid;
+    border-color: #ffffff;
+  }
+  
+  .web .category {
+    position: absolute;
+    width: 186px;
+    height: 30px;
+    top: 11px;
+    left: 20px;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0.31px;
+    line-height: 29.3px;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .web .div {
+    position: absolute;
+    top: 32px;
+    left: 2628px;
+    width: 572px;
+    height: 88px;
+  }
+  
+  .web .body {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1648px;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+  
+  .web .first-body {
+    width: 3200px;
+    height: 4613px;
+    overflow: hidden;
+  }
+  
+  .web .overlap {
+    position: relative;
+    width: 5097px;
+    height: 4613px;
+    left: -1316px;
+  }
+  
+  .web .group {
+    position: absolute;
+    width: 3209px;
+    height: 4485px;
+    top: 0;
+    left: 1316px;
+  }
+  
+  .web .tak {
+    position: absolute;
+    width: 2532px;
+    height: 2532px;
+    top: 1965px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .web .tak-berjudul {
+    position: absolute;
+    width: 1135px;
+    height: 1135px;
+    top: 22px;
+    left: 1017px;
+    object-fit: cover;
+  }
+  
+  .web .img {
+    position: absolute;
+    width: 1909px;
+    height: 1909px;
+    top: 815px;
+    left: 3188px;
+    object-fit: cover;
+  }
+  
+  .web .sub-body {
+    display: flex;
+    flex-direction: column;
+    width: 3200px;
+    align-items: flex-start;
+    gap: 50px;
+    position: absolute;
+    top: 0;
+    left: 1316px;
+  }
+  
+  .web .background-awalan {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 2334px;
+  }
+  
+  .web .group-2 {
+    position: absolute;
+    width: 1224px;
+    height: 351px;
+    top: 22px;
+    left: 988px;
+  }
+  
+  .web .tak-2 {
+    position: absolute;
+    width: 1323px;
+    height: 1485px;
+    top: 604px;
+    left: 939px;
+  }
+  
+  .web .overlap-group-wrapper {
+    position: absolute;
+    width: 1078px;
+    height: 99px;
+    top: 450px;
+    left: 1062px;
+  }
+  
+  .web .overlap-group {
+    position: relative;
+    width: 1076px;
+    height: 99px;
+    border-radius: 27px;
+    background: linear-gradient(180deg, rgba(197.62, 90.74, 180.52, 0.9) 0%, rgba(140.27, 128.85, 210.37, 0.9) 100%);
+  }
+  
+  .web .text-wrapper {
+    position: absolute;
+    width: 284px;
+    height: 43px;
+    top: 33px;
+    left: 396px;
+    font-family: "Star Cartoon-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 0.17px;
+    line-height: 16.7px;
+  }
+  
+  .web .jwst-apaan {
+    display: flex;
+    flex-direction: column;
+    height: 707px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 50px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .web .garis {
+    position: absolute;
+    width: 3088px;
+    height: 97px;
+    top: 103px;
+    left: 56px;
+  }
+  
+  .web .header-judul-nyet {
+    display: flex;
+    height: 732px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    margin-bottom: -45px;
+  }
+  
+  .web .judul-tagline {
+    position: relative;
+    width: 851px;
+    height: 592px;
+    overflow: hidden;
+  }
+  
+  .web .overlap-group-2 {
+    position: relative;
+    width: 994px;
+    height: 674px;
+    top: -40px;
+  }
+  
+  .web .deskripsi {
+    display: inline-flex;
+    flex-direction: column;
+    height: 482px;
+    align-items: flex-start;
+    gap: 17px;
+    padding: 50px 126px;
+    position: absolute;
+    top: 192px;
+    left: 0;
+  }
+  
+  .web .frame {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 25px 0px;
+    flex: 0 0 auto;
+    margin-bottom: -2px;
+    overflow: hidden;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .web .group-3 {
+    position: relative;
+    width: 747.5px;
+    height: 334px;
+    margin-right: -6px;
+  }
+  
+  .web .text-wrapper-2 {
+    position: absolute;
+    width: 741px;
+    height: 17px;
+    top: 36px;
+    left: 0;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0.17px;
+    line-height: 16.7px;
+    white-space: nowrap;
+  }
+  
+  .web .james-webb-space {
+    position: absolute;
+    width: 741px;
+    height: 17px;
+    top: 0;
+    left: 0;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0.17px;
+    line-height: 16.7px;
+    white-space: nowrap;
+  }
+  
+  .web .p {
+    position: absolute;
+    width: 741px;
+    height: 188px;
+    top: 146px;
+    left: 0;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .web .what-is-jwst {
+    position: absolute;
+    width: 376px;
+    height: 270px;
+    top: 0;
+    left: 116px;
+    -webkit-text-stroke: 5px #ffffff;
+    font-family: "Star Cartoon-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 96px;
+    letter-spacing: 0.31px;
+    line-height: 100px;
+  }
+  
+  .web .span {
+    color: #ff6666;
+    letter-spacing: 0.3px;
+  }
+  
+  .web .text-wrapper-3 {
+    color: #ffffff;
+    letter-spacing: 0.3px;
+  }
+  
+  .web .text-wrapper-4 {
+    color: #a93cff;
+    letter-spacing: 0.3px;
+  }
+  
+  .web .text-wrapper-5 {
+    color: #49b26d;
+    letter-spacing: 0.3px;
+  }
+  
+  .web .jwst-wrapper {
+    display: flex;
+    width: 1248px;
+    height: 556px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 35px 505px 35px 630px;
+    position: relative;
+  }
+  
+  .web .jwst {
+    position: relative;
+    width: 963px;
+    height: 521px;
+    margin-top: -17.5px;
+    margin-bottom: -17.5px;
+    margin-left: -425px;
+    margin-right: -425px;
+    object-fit: cover;
+  }
+  
+  .web .materi {
+    display: flex;
+    flex-direction: column;
+    height: 1323px;
+    align-items: center;
+    gap: 10px;
+    padding: 200px 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .web .header-line-txt {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding: 31px 491px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .web .category-2 {
+    position: relative;
+    width: 377px;
+    height: 48px;
+    margin-top: -8px;
+    margin-left: -7px;
+    -webkit-text-stroke: 7px #ffffff;
+    font-family: "Star Cartoon-Regular", Helvetica;
+    color: #637ca0;
+    font-size: 80px;
+    letter-spacing: 0.17px;
+    line-height: 16.7px;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .web .body-bagan-materi {
+    display: flex;
+    width: 2810px;
+    height: 953px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+    padding: 31px 491px;
+    position: relative;
+    margin-bottom: -150px;
+  }
+  
+  .web .card {
+    position: relative;
+    align-self: stretch;
+    width: 569px;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0px 20px 4px #00000040;
+  }
+  
+  .web .overlap-2 {
+    position: relative;
+    width: 557px;
+    height: 865px;
+    top: -9px;
+    left: 6px;
+  }
+  
+  .web .card-2 {
+    position: absolute;
+    width: 469px;
+    height: 586px;
+    top: 279px;
+    left: 44px;
+    background-color: #8f416bbf;
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0px 20px 4px #00000040;
+  }
+  
+  .web .overlap-3 {
+    position: absolute;
+    width: 433px;
+    height: 264px;
+    top: 239px;
+    left: 18px;
+  }
+  
+  .web .decs-teks {
+    display: flex;
+    flex-direction: column;
+    width: 433px;
+    height: 192px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0px;
+    position: absolute;
+    top: 72px;
+    left: 0;
+  }
+  
+  .web .text-wrapper-6 {
+    position: relative;
+    width: 408px;
+    height: 193px;
+    margin-top: -11.5px;
+    margin-bottom: -9.5px;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 35px;
+  }
+  
+  .web .judul-teks {
+    display: flex;
+    flex-direction: column;
+    width: 369px;
+    height: 92px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 42px 0px;
+    position: absolute;
+    top: 0;
+    left: 32px;
+    overflow: hidden;
+  }
+  
+  .web .galaxies {
+    position: relative;
+    width: 434px;
+    height: 103px;
+    margin-top: -20px;
+    margin-bottom: -38.5px;
+    margin-left: -20.5px;
+    margin-right: -24.5px;
+    -webkit-text-stroke: 8px #ffffff;
+    font-family: "Star Cartoon-Regular", Helvetica;
+    font-weight: 400;
+    color: #579e9a;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0.17px;
+    line-height: 16.7px;
+  }
+  
+  .web .div-wrapper {
+    position: absolute;
+    width: 336px;
+    height: 53px;
+    top: 503px;
+    left: 68px;
+  }
+  
+  .web .overlap-group-3 {
+    position: relative;
+    width: 334px;
+    height: 53px;
+    background-color: #d9d9d9;
+    border-radius: 35px;
+  }
+  
+  .web .text-wrapper-7 {
+    position: absolute;
+    width: 334px;
+    height: 35px;
+    top: 9px;
+    left: 0;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    color: #8f416b;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 35px;
+    white-space: nowrap;
+  }
+  
+  .web .icon {
+    position: absolute;
+    width: 557px;
+    height: 557px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .web .tak-3 {
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    top: -150px;
+    left: -80px;
+  }
+  
+  .web .card-3 {
+    position: absolute;
+    width: 469px;
+    height: 586px;
+    top: 279px;
+    left: 44px;
+    background-color: #563566bf;
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0px 20px 4px #00000040;
+  }
+  
+  .web .text-wrapper-8 {
+    position: relative;
+    width: 363px;
+    height: 193px;
+    margin-top: -11.5px;
+    margin-bottom: -9.5px;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 35px;
+  }
+  
+  .web .nebula {
+    position: relative;
+    width: 434px;
+    height: 103px;
+    margin-top: -20.5px;
+    margin-bottom: -38.5px;
+    margin-left: -20.5px;
+    margin-right: -24.5px;
+    -webkit-text-stroke: 8px #ffffff;
+    font-family: "Star Cartoon-Regular", Helvetica;
+    font-weight: 400;
+    color: #619b64;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0.17px;
+    line-height: 16.7px;
+  }
+  
+  .web .text-wrapper-9 {
+    color: #563566;
+    position: absolute;
+    width: 334px;
+    height: 35px;
+    top: 9px;
+    left: 0;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 35px;
+    white-space: nowrap;
+  }
+  
+  .web .tak-4 {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    top: -32px;
+    left: 30px;
+  }
+  
+  .web .card-4 {
+    position: absolute;
+    width: 469px;
+    height: 586px;
+    top: 279px;
+    left: 44px;
+    background-color: #3e4284bf;
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0px 20px 4px #00000040;
+  }
+  
+  .web .stars {
+    position: relative;
+    width: 434px;
+    height: 103px;
+    margin-top: -20.5px;
+    margin-bottom: -38.5px;
+    margin-left: -20.5px;
+    margin-right: -24.5px;
+    -webkit-text-stroke: 8px #ffffff;
+    font-family: "Star Cartoon-Regular", Helvetica;
+    font-weight: 400;
+    color: #edac61;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0.17px;
+    line-height: 16.7px;
+  }
+  
+  .web .text-wrapper-10 {
+    color: #5b5e8f;
+    position: absolute;
+    width: 334px;
+    height: 35px;
+    top: 9px;
+    left: 0;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 35px;
+    white-space: nowrap;
+  }
+  
+  .web .tak-5 {
+    position: absolute;
+    width: 816px;
+    height: 816px;
+    top: -93px;
+    left: -129px;
+    object-fit: cover;
+  }
+  
+  .web .footer {
+    display: flex;
+    flex-direction: column;
+    height: 99px;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #000000;
+    overflow: hidden;
+  }
+  
+  .web .container-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 329px;
+    align-items: center;
+    gap: 50px;
+    padding: 31px 491px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .web .container {
+    width: 1057.88px;
+    height: 68.2px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .web .container-2 {
+    align-items: center;
+    gap: 5px;
+    padding: 0px 221.21px 0px 221.19px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .web .strong {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .web .akhiran {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Abhaya Libre-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--kopikenangancomwhite);
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 18.2px;
+    white-space: nowrap;
+  }
+  
+  .web .alamat {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--kopikenangancomwhite);
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 18.2px;
+    white-space: nowrap;
+  }
